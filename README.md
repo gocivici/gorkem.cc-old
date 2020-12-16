@@ -1,0 +1,2 @@
+# gorkem.cc
+ portfolio webpage
