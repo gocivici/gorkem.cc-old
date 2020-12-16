@@ -1,0 +1,92 @@
+a { color: inherit; }
+a:hover {color: black;}
+.content{
+  margin: auto;
+  width: 80%;
+}
+body {
+  /* font-family: 'Karla', sans-serif; */
+}
+.container{
+  /* font-family: 'Karla', sans-serif; */
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+.navigation {
+  font-size: 30px;
+}
+.card-deck{
+
+}
+.featured-button{
+  height:70px;
+  width:auto;
+  display:inline-block;
+  padding-right:5px;
+  padding-left:5px;
+  padding-top: 10px;
+}
+.aboutText{
+font-size: 20px;
+}
+.contentAbout{
+  margin: auto;
+  width: 60%;
+}
+.social{
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 200%;
+}
+.distance{
+  margin-left: 5px;
+  margin-right:5px;
+  /* margin-top: 15px; */
+}
+.footer{
+  font-size: 12px;
+  padding: 2rem;
+  text-align: center;
+  margin: auto;
+  color: #404040;
+}
+/* body{
+background-image: url("pattern.png");
+} */
+@media only screen and (max-width: 440px) {
+  .navigation {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .content{
+    margin: auto;
+    width: 90%;
+  }
+}
+/* default CSS styles */
+@media (prefers-color-scheme: dark) {
+  body {
+  color: #eee;
+  background: #121212;
+}
+a:hover {color: red;}
+.card{
+  color: #eee;
+  background: #242526;
+}
+.footer{
+  color: #B3B3B3;
+}
+
+}
+@media (prefers-color-scheme: light) {
+  /* overwrite any default styles when
+     the user has set the Light appearance */
+}
