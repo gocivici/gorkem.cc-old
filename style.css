@@ -1,11 +1,21 @@
-a { color: inherit; }
-a:hover {color: black;}
-.content{
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: black;
+}
+
+.content {
   margin: auto;
   width: 80%;
 }
 body {
+  /* overflow: hidden; */
   /* font-family: 'Karla', sans-serif; */
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 .container{
   /* font-family: 'Karla', sans-serif; */
